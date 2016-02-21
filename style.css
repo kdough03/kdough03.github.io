@@ -1,0 +1,487 @@
+/***********************
+SITEWIDE 
+************************/
+
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+  float: left;
+  margin: 0;
+  padding: 5px 0;
+  width: 100%;
+  border-top: 2px solid slateGray;
+  border-bottom: 1px solid slateGray;
+}
+
+header h1 {
+	margin: 0;
+}
+
+.page-title {
+	display: inline-block;
+	width: 100%;
+	padding: 75px;
+	margin: 0;
+	text-align: center;
+	background-color: slateGray;
+	color: ivory;
+	text-transform: uppercase;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.col-md-4 {
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.centered-header {
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+
+#bio a {
+	color: ivory;
+}
+
+.services {
+	text-align: left;
+}
+
+.row-centered {
+	width: 70%;
+	margin: 0 auto;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 15px;
+}
+
+footer a {
+	display: inline-block;
+	padding: 5px;
+}
+
+.border-gray {
+	border: 1px solid slateGray;
+}
+
+/*********************** 
+NAVIGATION 
+**********************/
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding-top: 20px;
+	height: 50px;
+	border: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0;
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+nav a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid slateGray;
+}
+
+nav a.selected {
+	border-bottom: 2px solid slateGray;
+}
+
+/*********************** 
+NAVIGATION  - INDEX PAGE
+**********************/
+
+#nav-home {
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+#nav-home a {
+	text-decoration: none;
+	color: ivory;
+}
+
+#nav-home a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid ivory;
+}
+
+#nav-home a.selected {
+	border-bottom: 2px solid ivory;
+}
+
+/*********************** 
+PAGE: INDEX 
+************************/
+
+#header-home {
+	border: none;
+}
+
+#header-home h1 {
+	color: ivory;
+}
+
+#main-header {
+  min-width: 100%;
+  background: 	
+  	linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6	)),		
+  	url('../images/tech-desk.jpg') no-repeat center;
+  background-size: cover;
+  padding: 175px 0 175px 0;
+  text-align: center;
+}
+
+#logo {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 5px 10px;
+	text-align: left;
+	font-size: 1.3rem;
+	color: slateGray;
+	text-decoration: none;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#tagline {
+	padding: 25px;
+	font-size: 4.5rem;
+	letter-spacing: 4px;
+	color: ivory;
+}
+
+.tagline2 {
+	padding: 10px 0 10px 0;
+	color: ivory;
+}
+
+.icons-home {
+	padding-bottom: 50px;
+}
+
+.offerings {
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+  	url('../images/code.jpeg') no-repeat center;
+  background-size: cover;
+  border-top: 2px solid slateGray;
+  border-bottom: 2px solid slateGray;
+}
+
+.writing-services { 
+  text-align: center;
+  padding: 15px 0;
+  border-right: 2px solid slateGray;
+  font-size: 2rem;
+}
+
+.technologies { 
+  text-align: center;
+	padding: 15px 0;
+  font-size: 2rem;
+}
+
+#technologies h2 {
+	margin-bottom: 25px;
+}
+
+.badges-container {
+	height: 250px;
+	width: 70%;
+	margin: 5px auto;
+}
+
+.bio {
+	clear: left;
+	border-top: 2px solid slateGray;
+	font-size: 1.6rem;
+}
+
+.bio p {
+	padding: 25px 25px;
+}
+
+.bio img {
+	display: block;
+  max-width: 150px;
+  margin: 23px auto 30px;
+  border-radius: 100%;
+}
+.hr-home {
+	clear: left;
+}
+
+/***********************
+  BOOTSTRAP BUTTONS
+************************/
+
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #3276b1;
+}
+
+.btn-portfolio {
+	margin-top: 60px;
+}
+
+.btn-portfolio:hover a {
+	color: black;
+}
+
+.btn a {
+	text-decoration: none;
+}
+
+.btn a:hover {
+	text-decoration: none;
+}
+
+/***********************
+  OUTLINE BUTTONS
+************************/
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid ivory;
+    color: ivory;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    background-color: ivory;
+    color: black;
+    border-color: ivory;
+}
+
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+/*********************** 
+PAGE: PORTFOLIO 
+************************/
+
+.portfolio  p {
+	font-size: 1.6rem;
+	padding: 5px 0;
+}
+
+h2.portfolio {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+
+/***********************
+PAGE: CV 
+************************/
+
+#cv {
+	font-size: 1.6rem;
+}	
+
+#cv h2 {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+#cv p {
+	margin-top: 18px;
+}
+	
+/*********************** 
+PAGE: CONTACT 
+************************/
+
+#map { 
+	width: 100%;
+	height: 200px; 
+	border-bottom: 1px solid slateGray;
+	}	
+
+.contact-info {
+  padding-top: 35px;
+  margin: 0;
+  font-size: 1.6rem;
+  list-style: none;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../images/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../images/email.png');
+}
+
+.freelance-sites {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.freelance-sites a {
+	text-decoration: none;
+	font-size: 1.6rem;
+}
+
+h2.freelance-sites {
+	font-size: 3rem;
+	padding: 40px 0;
+}
+
+ul.freelance-sites {
+	margin-left: 20px;
+}
+
+.freelance-sites li {
+	padding-bottom: 10px;
+	font-size: 1.6rem;
+}
+
+form {
+  padding: 35px;
+}
+
+input {
+	height: 35px;
+	width: 100%;
+	margin: 15px 0;
+	background-color: white;
+  border: 1px solid slateGray;
+	border-radius: 8px;
+	font-size: 1rem;
+	padding-left: 15px;
+}
+
+#label-name {
+	margin-top: 0;
+}
+
+textarea {
+	height: 150px;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	background-color: white;
+  border: 1px solid slateGray;
+  font-size: 1rem;
+	border-radius: 8px;
+}
+
+label {
+	display: block;
+	margin: 15px 0;
+}
+
+
+button a {
+	color: white;
+	text-decoration: none;
+}
+
+button.button-contact-submit {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: salmon;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button:hover {
+	background-color: IndianRed;
+	color: white;
+}
+
+.email-confirm {
+	padding: 10% 5%;
+	text-align: center;
+}
+
