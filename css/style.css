@@ -207,34 +207,33 @@ PAGE: INDEX
 }
 
 .offerings {
-	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-  	url('../images/code.jpeg') no-repeat center;
-  background-size: cover;
-  border-top: 2px solid slateGray;
-  border-bottom: 2px solid slateGray;
+	background-color: slateGray;
+	border: 2px solid dimGray;
+	color: ivory;
+}
+
+.offerings h2	{
+	padding-bottom: 30px;
 }
 
 .writing-services { 
   text-align: center;
-  padding: 15px 0;
-  border-right: 2px solid slateGray;
+  padding: 30px 0;
+  border-right: 2px solid lightGray;
   font-size: 2rem;
 }
 
 .technologies { 
   text-align: center;
-	padding: 15px 0;
+	padding: 30px 0;
   font-size: 2rem;
 }
 
-#technologies h2 {
-	margin-bottom: 25px;
-}
 
 .badges-container {
 	height: 250px;
 	width: 70%;
-	margin: 5px auto;
+	margin: 25px auto;
 }
 
 .bio {
