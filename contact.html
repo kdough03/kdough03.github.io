@@ -80,16 +80,16 @@
     <script type="text/javascript">
 
 function initMap() {
-  var ardmore = {lat: 40.0067786, lng: -75.2854622};
+  var co-springs = {lat: 38.853298, lng: -104.859497};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
-    center: ardmore
+    center: co-springs
   });
 
   var marker = new google.maps.Marker({
-    position: ardmore,
+    position: co-springs,
     map: map,
-    title: 'Ardmore'
+    title: 'Colorado Springs'
   });
   marker.addListener('click', function() {
     infowindow.open(map, marker);
