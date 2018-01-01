@@ -74,16 +74,16 @@ user			</div>
     <script type="text/javascript">
 
 function initMap() {
-  var co_springs = {lat: 38.853298, lng: -104.859497};
+  var lakewood = {lat: 39.704637, lng: -105.077843};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
-    center: co_springs
+    center: lakewood
   });
 
   var marker = new google.maps.Marker({
-    position: co_springs,
+    position: lakewood,
     map: map,
-    title: 'Colorado Springs'
+    title: 'Lakewood'
   });
   marker.addListener('click', function() {
     infowindow.open(map, marker);
@@ -96,3 +96,4 @@ function initMap() {
     </script>
 	</body>
 </html>	
+
