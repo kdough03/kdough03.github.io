@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="css/responsive.css">
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="canonical" href="http://www.katedoughertywriter.com/contact.html/" /> 
+		<link rel="canonical" href="http://www.katedoughertywriter.com/contact.html/" />
 		<script src="#"></script>
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,20 +36,20 @@
 		<h1 class="page-title">Contact</h1>
 		<div id="wrapper">
 			<div id="map"></div>
-<!-- LEFT SIDE -->	
+<!-- LEFT SIDE -->
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-6">
-						<ul class="contact-info">		
+						<ul class="contact-info">
 							<li class="mail"><strong><a href="mailto:katedoughertywriter@gmail.com">katedoughertywriter@gmail.com</a></strong></li>
 							<li class="phone"><a href="tel:12673570149">(267) 357-0149</a></li>
-							<li>Lakewood, CO</li>
+							<li>Wayne, PA</li>
 						</ul>
 				</div>
-<!-- RIGHT SIDE -->				
+<!-- RIGHT SIDE -->
 					<div class="col-sm-6">
 						<form action="http://formspree.io/katedoughertywriter@gmail.com" method="POST">
-							<label for="name" id="label-name">Name *</label><br><input type="text" name="name" id="user_name" placeholder="James T. Kirk" required><br> 
+							<label for="name" id="label-name">Name *</label><br><input type="text" name="name" id="user_name" placeholder="James T. Kirk" required><br>
 							<label for="email">Email *</label><br><input type="email" name="email" id="user_email" placeholder="jamestkirk@starfleet.org" required><br>
 							<label for="subject">Subject *</label><br><input type="text" name="subject" id="user_subject" required><br>
 							<label for="message">Message *</label><br><textarea id="message" name="user_message" required></textarea><br>
@@ -59,31 +59,30 @@
 					</div>
 				</div>
 user			</div>
-<!-- FOOTER -->	
+<!-- FOOTER -->
  			<footer>
     		<hr />
     		<a href="https://twitter.com/kate_dougherty"><img src="images/twitter.png" alt="Twitter logo"></a>
    	 		<a href="https://www.linkedin.com/in/katedoughertywriter"><img src="images/linkedin.png" alt="LinkedIn logo"></a>
     		<a href="https://www.pinterest.com/kate_dougherty/"><img src="images/pinterest.png" alt="Pinterest logo"></a>
-    		<a href="https://www.reddit.com/user/kdough03/"><img src="images/reddit.png" alt="Reddit logo"></a>
     		<a href="https://github.com/kdough03"><img src="images/github.png" alt="GitHub logo"></a>
-    		<p>&copy; 2016 Kate Dougherty</p>
+    		<p>&copy; 2018 Kate Dougherty</p>
     	</footer>
-    </div>	
+    </div>
     <!-- CREATE AND INTIALIZE A MAP WITH THE DESIRED MAP OPTIONS -->
     <script type="text/javascript">
 
 function initMap() {
-  var lakewood = {lat: 39.704637, lng: -105.077843};
+  var philly = {lat: 39.951357, lng: -75.168231};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
-    center: lakewood
+    center: philly
   });
 
   var marker = new google.maps.Marker({
-    position: lakewood,
+    position: philly,
     map: map,
-    title: 'Lakewood'
+    title: 'Philadelphia'
   });
   marker.addListener('click', function() {
     infowindow.open(map, marker);
@@ -95,5 +94,4 @@ function initMap() {
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnU46rCKiLwSocWgsmx_s-ahkdsS5YjkE&callback=initMap">
     </script>
 	</body>
-</html>	
-
+</html>
