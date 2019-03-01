@@ -1,4 +1,4 @@
-# Instructions for using this script are available at https://pages.github.rackspace.com/IX/writers-handbook/processes/how-to/scripts/list-articles-without-audit-dates.html
+# Instructions for using this script are available at <link>
 
 import os
 import sys
